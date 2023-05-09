@@ -21,13 +21,13 @@ a {
   text-decoration: none
 }
 
-.username {
+.header-name a {
   color: #fafafa;
   font-size: 16px;
-
+  text-decoration: none
 }
 
-.room-create {
+.room-create a {
   font-size: 10px;
   color: deepskyblue;
   border: 1px solid lightblue;
@@ -47,7 +47,7 @@ a {
 }
 
 .chat {
-  width: calc(100vw - 100px);
+  width: calc(100vw - 300px);
   background-color: #ffffff;
 }
 
