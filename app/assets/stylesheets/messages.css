@@ -71,11 +71,14 @@ a {
   margin-top: 36px;
 }
 
-.room-exit{
+.room-exit a {
   color: darkred;
   border: 1px solid darkred;
   padding: 20px;
-  margin-top: 20px;
+}
+
+.room-exit {
+  margin-top: 40px;
 }
 
 .messages {
