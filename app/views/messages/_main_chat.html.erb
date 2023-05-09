@@ -1,12 +1,14 @@
 <div class ="chat-header">
   <div class ="heading">
-   <a href="#" class ="heading-room-name">roomname</a>
+   <div class ="heading-room-name">
+     <%= @room.name %>
+   </div>
       <a href="#" class ="room-exit">チャットを終了する</a>
 
   </div>
 </div>
 
-<div class ="messages">
+<div class="messages">
   <%= render partial: 'message', collection: @messages %>
 </div>
 
